@@ -9,15 +9,15 @@
       "buildName": "host-mf-app"
     },
     "remoteEntry": {
-      "name": "",
+      "name": "host_mf_app.js",
       "path": "",
       "type": "global"
     },
     "types": {
       "path": "",
       "name": "",
-      "zip": ".",
-      "api": "."
+      "zip": "@mf-types.zip",
+      "api": "@mf-types.d.ts"
     },
     "globalName": "host_mf_app",
     "pluginVersion": "0.8.12",
@@ -67,5 +67,25 @@
     }
   ],
   "remotes": [],
-  "exposes": []
+  "exposes": [
+    {
+      "id": "host_mf_app:Button",
+      "name": "Button",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_Button.js"
+          ],
+          "async": [
+            "988.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./Button"
+    }
+  ]
 }
