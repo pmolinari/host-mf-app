@@ -27,9 +27,108 @@
   "shared": [
     {
       "singleton": true,
-      "requiredVersion": "^18.3.1",
+      "requiredVersion": ">0.0.1",
       "shareScope": "default",
-      "import": "react-dom",
+      "name": "@norma/brand",
+      "version": "0.0.11",
+      "eager": false,
+      "id": "host_mf_app:@norma/brand",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js"
+          ],
+          "sync": [
+            "778.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": ">0.0.1",
+      "shareScope": "default",
+      "name": "@norma/core",
+      "version": "0.0.16",
+      "eager": false,
+      "id": "host_mf_app:@norma/core",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js",
+            "778.js"
+          ],
+          "sync": [
+            "950.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": ">0.0.1",
+      "shareScope": "default",
+      "name": "@norma/form",
+      "version": "0.0.3",
+      "eager": false,
+      "id": "host_mf_app:@norma/form",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js",
+            "952.js",
+            "778.js"
+          ],
+          "sync": [
+            "630.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": ">0.0.1",
+      "shareScope": "default",
+      "name": "@norma/icons",
+      "version": "0.0.3",
+      "eager": false,
+      "id": "host_mf_app:@norma/icons",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js",
+            "778.js"
+          ],
+          "sync": [
+            "681.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.0",
+      "shareScope": "default",
       "name": "react-dom",
       "version": "18.3.1",
       "eager": false,
@@ -52,9 +151,33 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^18.3.1",
+      "requiredVersion": "^7.3.0",
       "shareScope": "default",
-      "import": "react",
+      "name": "react-router-dom",
+      "version": "7.4.0",
+      "eager": false,
+      "id": "host_mf_app:react-router-dom",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js",
+            "952.js"
+          ],
+          "sync": [
+            "129.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.0",
+      "shareScope": "default",
       "name": "react",
       "version": "18.3.1",
       "eager": false,

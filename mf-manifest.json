@@ -26,11 +26,99 @@
   },
   "shared": [
     {
+      "id": "host_mf_app:@norma/brand",
+      "name": "@norma/brand",
+      "version": "0.0.11",
+      "singleton": true,
+      "requiredVersion": ">0.0.1",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js"
+          ],
+          "sync": [
+            "778.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "host_mf_app:@norma/core",
+      "name": "@norma/core",
+      "version": "0.0.16",
+      "singleton": true,
+      "requiredVersion": ">0.0.1",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js",
+            "778.js"
+          ],
+          "sync": [
+            "950.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "host_mf_app:@norma/form",
+      "name": "@norma/form",
+      "version": "0.0.3",
+      "singleton": true,
+      "requiredVersion": ">0.0.1",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js",
+            "952.js",
+            "778.js"
+          ],
+          "sync": [
+            "630.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "host_mf_app:@norma/icons",
+      "name": "@norma/icons",
+      "version": "0.0.3",
+      "singleton": true,
+      "requiredVersion": ">0.0.1",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js",
+            "778.js"
+          ],
+          "sync": [
+            "681.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "host_mf_app:react-dom",
       "name": "react-dom",
       "version": "18.3.1",
       "singleton": true,
-      "requiredVersion": "^18.3.1",
+      "requiredVersion": "^18.3.0",
       "assets": {
         "js": {
           "async": [
@@ -47,11 +135,33 @@
       }
     },
     {
+      "id": "host_mf_app:react-router-dom",
+      "name": "react-router-dom",
+      "version": "7.4.0",
+      "singleton": true,
+      "requiredVersion": "^7.3.0",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js",
+            "952.js"
+          ],
+          "sync": [
+            "129.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "host_mf_app:react",
       "name": "react",
       "version": "18.3.1",
       "singleton": true,
-      "requiredVersion": "^18.3.1",
+      "requiredVersion": "^18.3.0",
       "assets": {
         "js": {
           "async": [],
