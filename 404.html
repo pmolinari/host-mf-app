@@ -3,7 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Redireccionando...</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const redirectUrl = "https://pmolinari.github.io/host-mf-app/";
+        const message = document.createElement("p");
+        let secondsLeft = 5;
+        message.textContent = `Serás redirigido en ${secondsLeft} segundos...`;
+        document.body.insertBefore(message, document.body.firstChild);
+
+        const interval = setInterval(() => {
+          secondsLeft--;
+          message.textContent = `Serás redirigido en ${secondsLeft} segundos...`;
+          if (secondsLeft === 0) {
+            clearInterval(interval);
+            window.location.href = redirectUrl;
+          }
+        }, 1000);
+      });
+    </script>
   </head>
   <body>
     <a href="https://pmolinari.github.io/host-mf-app/">Volver a inicio</a>
