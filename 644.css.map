@@ -1,0 +1,1 @@
+{"version":3,"file":"644.css","sources":["webpack://host_mf_app/./src/components/DynamicRemote/styles.css"],"sourcesContent":[".pepe {\n  border: 10px dashed red;\n  height: auto !important;\n}\n"],"names":[],"mappings":"AAAA"}
